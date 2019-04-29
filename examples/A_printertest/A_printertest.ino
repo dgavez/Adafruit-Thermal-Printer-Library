@@ -84,6 +84,10 @@ void setup() {
   printer.setSize('S');
   printer.println(F("Small"));
 
+  printer.setFont('B');
+  printer.println(F("Font B:\n !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHI"));
+  printer.setFont('A');
+
   printer.justify('C');
   printer.println(F("normal\nline\nspacing"));
   printer.setLineHeight(50);
