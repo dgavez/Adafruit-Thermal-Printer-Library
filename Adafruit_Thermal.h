@@ -24,7 +24,7 @@
 // *** EDIT THIS NUMBER ***  Printer firmware version is shown on test
 // page (hold feed button when connecting power).  Number used here is
 // integerized, e.g. 268 = 2.68 firmware.
-#define PRINTER_FIRMWARE 268
+#define PRINTER_FIRMWARE 269
 
 #include "Arduino.h"
 
